@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <link rel="Shortcut Icon" href="/phantom_shadow/picture/未标题-2.ico" type="image/x-icon" />
-        <title>欢迎来到PSK主页</title>
+        <title>PSK内置浏览器主页</title>
         <style type="text/css">
             body{
                 background: url("/phantom_shadow/picture/1.jpg") no-repeat center center fixed;
@@ -33,19 +33,41 @@
         a {
             color: #20a53a
         }
+        form .text {
+				display: inline-block;
+				border: 0;
+				width: 260px;
+				height: 35px;
+				font-size: 14px;
+				outline: none;
+				
+				border: 2px solid #01af63;
+			}
+			
+			form .search {
+				
+				width: 90px;
+				height: 38px;
+				border: 0;
+				outline: none;
+				cursor: pointer;
+				/*   cursor: pointer;   鼠标悬停或点击时button时鼠标变成其他图标  */
+				text-align: center;
+				line-height: 40px;
+				background-color: #01af63;
+				color: #FFFFFF;
+			}
+
             </style>
     </head>
 <html>
 <body>
     <a target="_blank"  href='https://gitee.com/Phantom-Shadow/p-s-k'><img src='https://gitee.com/Phantom-Shadow/p-s-k/badge/star.svg?theme=dark' alt='star'></img></a>
 <div class="container" style="border : 2px solid #000;">
-    <h1>欢迎来到PSK在GitHub的官网</h1>
-    <h3> </h3>
-    <ul>
-        <li><a target="_blank" href="https://gitee.com/Phantom-Shadow/p-s-k/wikis" >可前往gitee查看帮助</a></li>
-        <li><a target="_blank" href="/phantom_shadow/other/up.html" > 前往查看更新日志</a></li>
-
-    </ul>
+    <form target="_blank" method="get" action="https://www.baidu.com/s">
+        <input type="text" placeholder="请输入关键词" name="word" class="text" />
+        <input type="submit" value="搜索" class="search">
+    </form>
 </div>
 </body>
 </html>
